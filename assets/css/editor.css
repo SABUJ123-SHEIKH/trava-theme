@@ -1,0 +1,21 @@
+.editor-styles-wrapper {
+  font-family: var(--trava-font-family);
+  font-size: var(--trava-font-size);
+}
+.editor-styles-wrapper .trava-container {
+  max-width: var(--trava-container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.editor-styles-wrapper .trava-hero,
+.editor-styles-wrapper .trava-services,
+.editor-styles-wrapper .trava-testimonials,
+.editor-styles-wrapper .trava-cta,
+.editor-styles-wrapper .trava-footer {
+  outline: 1px dashed rgba(0,0,0,.08);
+}
+.editor-styles-wrapper .trava-icon-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
